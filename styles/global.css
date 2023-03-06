@@ -1,0 +1,285 @@
+.b{
+  background: #0d0d0d !important;
+  padding: 20px;
+}
+
+body {
+  background-color: black !important;
+}
+
+.staff{
+  background: #0d0d0d;
+  font-family: Nasa, Arial;  
+  color: #fafafaff;
+}
+
+* {
+  margin: 0;
+  font-family: Nasa, Arial; 
+}
+
+.carousel {
+  font-family: Nasa, sans-serif;
+  position: ;
+}
+
+.h{
+  font-size: 50;
+  background: #0d0d0d;
+  color: #fafafaff;
+  padding: 55px;
+  font-family: Nasa, Arial;  
+  text-align: center;
+}
+
+.p{
+  font-size: 16;
+  background: #0d0d0d;
+  color: #fafafaff;
+  padding: 15px;
+  font-family: Nasa, Arial;  
+  text-align: center;
+}
+
+.linktalk{
+  font-size: 2.5vw;
+  background: #0d0d0d;
+  color: #fafafaff;
+  padding: 8vw;
+  font-family: Nasa, Arial;  
+  text-align: center;
+}
+
+.linksUsed{
+  font-size: 2.5vw;
+  background: #0d0d0d;
+  color: #ffffffff;
+  padding: 10px;
+  font-family: Nasa, Arial;  
+  text-align: center;
+  display: inline-block;
+}
+
+.wr{
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.cont{
+  width: 50vw;
+  height: 20vw;
+  margin: 10px;
+  padding: 10px;
+  display: inherit;
+  position: relative;
+  border-radius: 0.5em;
+  background-color: #141414;
+  border-bottom: 10px solid #241a2e;
+}
+
+span.num{
+  color: #ca4acf;
+  font-size: 13vw;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  margin: 2vw;
+}
+
+span.num2{
+  color: #ca4acf;
+  font-size: 13vw;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 2vw;
+}
+
+span.num3{
+  color: #ca4acf;
+  font-size: 13vw; 
+  text-align: left;
+  width: 100%;
+  position: relative;
+  margin: 2vw;
+}
+
+.countSub{
+color: #ffffff;
+text-align: center;
+font-size: 7vw;
+}
+
+.countHead{
+text-align: center;
+font-size: 7vw;
+}
+
+span.text{
+  color: #004de6;
+  text-align: center;
+  font-size: 3vw;
+}
+
+/* Mobile View */
+
+.nav__local {
+  border-bottom:1px solid lightgrey;
+  background: black !important;
+}
+
+.nav__toggle{
+  position: absolute;
+  cursor: pointer;
+  margin: 0rem 1rem;
+  right: 0;
+}
+
+.menu{
+  margin-top: 0.2rem;
+  width: 1.5rem;
+  fill: grey;
+}
+
+.close{
+  display: none;
+}
+
+.nav__checkbox{
+  display: none;
+}
+
+.nav__menu{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem;
+}
+
+.nav__menu li{
+  list-style: none;
+   display: none;
+}
+
+.nav__menu li:first-child {
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  margin-top: 7px;
+}
+
+.nav__menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2px 6px;
+  text-decoration: none !important;
+  font-family: Nasa, Arial;
+}
+
+#nav__checkbox:checked ~ ul.nav__menu li{
+  display: block;
+}
+
+/* Desktop View */
+
+@media only screen and (min-width:700px){
+  .nav__toggle{
+      display:none;
+    }
+
+  .nav__menu{
+      flex-direction:row;
+  }
+  
+  .nav__menu li{
+    display: block;
+  }
+}
+
+.card {
+  margin: 5px;
+  width: 200px;
+}
+
+.box{
+  margin: 10px;
+  background-color: #5A5A5A;
+}
+
+.container {
+  text-align: center;
+  padding: 2px 6px;
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  color: white;
+}
+
+.footer {
+  color: #ffffff;
+  background: #0a0a0a;
+  position: absolute;
+  bottom: 0;
+  width: 100;
+  z-index:2; 
+  padding: 15px;
+  font-family: Nasa, Arial;  
+  font-weight: 100;
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#root {
+  min-height: 15vh;
+  position: relative;
+}
+
+.aboutinfo {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#launch {
+  background-image: ;
+  z-index: -2;
+}
+
+#hero-content {
+  z-index: 4;
+  color: white;
+}
+
+#announcment {
+  margin: 0;
+  background: black;
+}
+
+#count {
+  
+}
+
+.services {
+  background-color: black;
+}

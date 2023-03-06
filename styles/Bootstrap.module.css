@@ -1,0 +1,23 @@
+
+.itemP {
+  height: 30rem;
+}
+.itemP > img {
+  width: 100%;
+  object-fit: cover;
+  height: 40rem;
+}
+
+.caption {
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.caption h3 {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
